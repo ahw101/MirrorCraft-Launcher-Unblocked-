@@ -74,5 +74,31 @@ Follow the in-game instructions to:
 - Clean browser history
 - Instant exit capabilities
 
+## 🚀 Deployment on Koyeb
+
+1. Fork this repository
+2. Create a new Koyeb account at https://app.koyeb.com/
+3. In Koyeb, create a new app and select "GitHub"
+4. Connect your GitHub account and select this repository
+5. Configure your deployment:
+   - Build method: Dockerfile
+   - Port: 8081
+   - Health check path: /health
+6. Click "Deploy"
+
+Your launcher will be available at your Koyeb domain!
+
+## 🐳 Docker Development
+
+```bash
+# Build the image
+docker build -t silicon-launcher .
+
+# Run locally
+docker run -p 8081:8081 silicon-launcher
+```
+
+Visit `http://localhost:8081` to access the launcher.
+
 ---
 Enjoy your portable Minecraft experience! 🎮✨
