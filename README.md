@@ -1,6 +1,6 @@
 # Silicon Eaglercraft Launcher 🚀
 
-A comprehensive launcher for all versions of Eaglercraft, providing seamless access to multiple game clients from anywhere, including restricted environments.
+🎮 Play Minecraft anywhere - School, Work, No Download Required! Includes every Eaglercraft version (1.8.8, 1.5.2, Indev) with instant stealth features (` to close, about:blank cloak). Just download, click index.html, and play! Beautiful graphics and custom resource packs included!
 
 ## 🌟 Features
 
