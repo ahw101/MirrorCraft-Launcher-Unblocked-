@@ -81,12 +81,14 @@ Follow the in-game instructions to:
 3. In Koyeb, create a new app and select "GitHub"
 4. Connect your GitHub account and select this repository
 5. Configure your deployment:
-   - Build method: Dockerfile
+   - **IMPORTANT**: Select "Docker" as the build method (not Buildpack)
    - Port: 8081
    - Health check path: /health
 6. Click "Deploy"
 
 Your launcher will be available at your Koyeb domain!
+
+Note: Make sure to select "Docker" as the build method, not "Buildpack", for successful deployment.
 
 ## 🐳 Docker Development
 
